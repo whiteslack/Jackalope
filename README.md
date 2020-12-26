@@ -58,10 +58,12 @@ Currently, Windows and macOS.
 
 ```
 git clone --recurse-submodules git@github.com:googleprojectzero/TinyInst.git
-(alternately: git clone --recurse-submodules https://github.com/googleprojectzero/TinyInst.git)
+# alternately: git clone --recurse-submodules https://github.com/googleprojectzero/TinyInst.git
+cd TinyInst
 mkdir build
 cd build
-cmake <generator arguments> ..
+# cmake <generator arguments> ..
+cmake ..
 cmake --build . --config Release
 ```
 
